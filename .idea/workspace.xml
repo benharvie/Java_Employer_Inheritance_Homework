@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="970a2342-2c70-48f7-a826-29fd03e7deb8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Management/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Management/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Management/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding>
                 <element signature="e#311#312#0" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
@@ -59,14 +57,22 @@
       <file leaf-file-name="TestManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            <state relative-caret-position="371">
+              <caret line="43" column="96" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#89#90#0" expanded="true" />
                 <element signature="e#117#118#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
                 <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -511,17 +517,85 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestManager.paysBonus">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="TestManager.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestManager.hasDeptName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InheritanceHomework_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestManager" />
-      <option name="METHOD_NAME" value="hasName" />
+      <option name="METHOD_NAME" value="hasDeptName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestManager.hasNiNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InheritanceHomework_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestManager" />
+      <option name="METHOD_NAME" value="hasNiNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestManager.hasSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InheritanceHomework_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestManager" />
+      <option name="METHOD_NAME" value="hasSalary" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestManager.paysBonus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InheritanceHomework_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestManager" />
+      <option name="METHOD_NAME" value="paysBonus" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestManager.raisesSalary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InheritanceHomework_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestManager" />
+      <option name="METHOD_NAME" value="raisesSalary" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -570,9 +644,20 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.TestManager.hasNiNumber" />
+      <item itemvalue="JUnit.TestManager.hasSalary" />
+      <item itemvalue="JUnit.TestManager.hasDeptName" />
+      <item itemvalue="JUnit.TestManager.raisesSalary" />
+      <item itemvalue="JUnit.TestManager.paysBonus" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestManager.hasName" />
+        <item itemvalue="JUnit.TestManager.paysBonus" />
+        <item itemvalue="JUnit.TestManager.raisesSalary" />
+        <item itemvalue="JUnit.TestManager.hasDeptName" />
+        <item itemvalue="JUnit.TestManager.hasSalary" />
+        <item itemvalue="JUnit.TestManager.hasNiNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -589,24 +674,57 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestManager_hasName - 2018.10.15 at 20h 05m 55s.xml">
+      <configuration name="TestManager.hasName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManager_hasNiNumber - 2018.10.15 at 20h 08m 00s.xml">
+      <configuration name="TestManager.hasNiNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManager_hasSalary - 2018.10.15 at 20h 08m 26s.xml">
+      <configuration name="TestManager.hasSalary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManager_hasSalary - 2018.10.15 at 20h 08m 38s.xml">
+      <configuration name="TestManager.hasSalary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManager_hasDeptName - 2018.10.15 at 20h 09m 11s.xml">
+      <configuration name="TestManager.hasDeptName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManager_raisesSalary - 2018.10.15 at 20h 10m 26s.xml">
+      <configuration name="TestManager.raisesSalary" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManager_paysBonus - 2018.10.15 at 20h 11m 26s.xml">
+      <configuration name="TestManager.paysBonus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManager_paysBonus - 2018.10.15 at 20h 12m 09s.xml">
+      <configuration name="TestManager.paysBonus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManager_paysBonus - 2018.10.15 at 20h 12m 35s.xml">
+      <configuration name="TestManager.paysBonus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestManager_paysBonus - 2018.10.15 at 20h 12m 49s.xml">
+      <configuration name="TestManager.paysBonus" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.28484848" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info anchor="bottom" id="Build" weight="0.28484848" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -624,6 +742,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/TechStaff/Developer.java">
@@ -668,7 +791,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Management/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
             <element signature="e#311#312#0" expanded="true" />
             <element signature="e#341#342#0" expanded="true" />
@@ -678,14 +801,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="371">
+          <caret line="43" column="96" selection-start-line="43" selection-start-column="96" selection-end-line="43" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#89#90#0" expanded="true" />
             <element signature="e#117#118#0" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
             <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
           </folding>
         </state>
       </provider>
